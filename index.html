@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto Flex</title>
+    <link rel="stylesheet" href="assets\css\style.css" />
+    <script
+      src="https://kit.fontawesome.com/26c3be3da4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="box-1">
+        <div class="encabezado">
+          <div class="encabezado-texto">
+            <p>STAR WARS</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="cuerpo-texto">
+          <div class="cuerpo-texto-1">
+            <p>
+              Es un universo de ficción creado por George Lucas. La historia de
+              Star Wars utiliza arquetipos comunes a la ciencia ficción, climax
+              político y mitología, así como temas musicales de estos aspectos.
+            </p>
+            <p>
+              Siendo uno de los ejemplos más importantes de la space opera
+              (subgénero de ciencia ficción) Star Wars se ha convertido en una
+              parte esencial de la cultura popular, así como una de las
+              películas de mayor recaudación en taquilla de todos los tiempos y
+              una de las mas aclamadas por el público en general.
+            </p>
+          </div>
+          <div class="cuerpo-texto-2">
+            <img
+              id="imagenstarwars"
+              src="assets\img\logostarwars.jpg"
+              alt="starwars"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="caracteristicas">
+          <p>¿CUANTOS STICKERS QUIERES?</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="galeria">
+          <h2>Compra hasta 10 stickers de colección</h2>
+          <div class="fotos">
+            <figure>
+              <img src="assets\img\c3po.jpg" alt="c3po" />
+              <figcaption>
+                <input
+                  type="text"
+                  placeholder="Ingrese cantidad"
+                  id="sticker1"
+                />
+              </figcaption>
+            </figure>
+
+            <figure>
+              <img src="assets\img\chewbacca.jpg" alt="chewbacca" />
+              <figcaption>
+                <input
+                  type="text"
+                  placeholder="Ingrese cantidad"
+                  id="sticker2"
+                />
+              </figcaption>
+            </figure>
+
+            <figure>
+              <img src="assets\img\grogu.jpg" alt="grogu" />
+              <figcaption>
+                <input
+                  type="text"
+                  placeholder="Ingrese cantidad"
+                  id="sticker3"
+                />
+              </figcaption>
+            </figure>
+          </div>
+          <p id="textoArriba"></p>
+          <button id="botonverificar">Compra Aqui</button>
+        </div>
+      </section>
+
+      <section>
+        <div class="caracteristicas">
+          <p>¿CONOCES NUESTRA CLAVE SECRETA?</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="container mt-5">
+          <form>
+            <div class="form-group">
+              <label for="password">Ingresa el password:</label>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <select class="form-control" id="digito1" required>
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <select class="form-control" id="digito2" required>
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <select class="form-control" id="digito3" required>
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                </select>
+              </div>
+            </div>
+            <button type="button" id="ingresar">Ingresar</button>
+            <p id="textoClave"><b></b></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="pie">
+        <div class="pie-texto">
+          <p>Desafio Condicionales Javascript</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script src="../assets/js/script.js"></script>
+</html>
